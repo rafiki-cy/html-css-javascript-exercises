@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício do Prof. Elberth</title>
+</head>
+<body>
+    <form>       
+        <label>Nome:</label><br>
+        <input type="text" id="nome" placeholder="Digite seu nome"  style="width: 500px; height: 30px;">
+        <br><br>
+        <label>Salário bruto:</label><br>
+        <input type="text" id="salarioBruto" placeholder="Digite seu salário bruto" style="width: 500px; height: 30px;">
+        <br><br>
+        <label>Gratificação:</label><br>
+        <input type="text" id="gratificacao" placeholder="Digite o valor da gratificação" style="width: 500px; height: 30px;">
+        <br><br>
+        <label>Desconto:</label><br>
+        <input type="text" id="desconto" placeholder="Digite o valor do desconto" style="width: 500px; height: 30px;">
+        <br><br>
+        <label>Ano de contratação:</label><br>
+        <input type="text" id="anoDeContratacao" placeholder="Digite o ano de contratação" style="width: 500px; height: 30px;">
+        <br><br><br><br>
+        <input type="button" value="MOSTRAR RESULTADO" onclick="resultado()">
+        <br><br><br>
+        <input type="text" id="resultadoFinal" readonly  value="Seu resultado aparecerá aqui:" style="width: 1000px; height: 30px;">
+    </form>
+    
+    <script src="./calculo-salario-liquido-funcionario.js"></script>
+</body>
+</html>
