@@ -1,1 +1,4 @@
-O exercício propõe que se calcule o salário liquido de um funcionário através dos dados que o usuário informa através do formulário.
+Exercício JavaScript
+
+- Calcular salário liquino de funcionário recebendo dados de usuário através do form
+- Manipulação do DOM
