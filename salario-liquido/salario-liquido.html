@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício do Prof. Elberth</title>
+    <link href="salario-liquido.css" rel="stylesheet">
+    <title>Salário Liquido</title>
 </head>
+
 <body>
-    <form>       
-        <label>Nome:</label><br>
-        <input type="text" id="nome" placeholder="Digite seu nome"  style="width: 500px; height: 30px;">
-        <br><br>
-        <label>Salário bruto:</label><br>
-        <input type="text" id="salarioBruto" placeholder="Digite seu salário bruto" style="width: 500px; height: 30px;">
-        <br><br>
-        <label>Gratificação:</label><br>
-        <input type="text" id="gratificacao" placeholder="Digite o valor da gratificação" style="width: 500px; height: 30px;">
-        <br><br>
-        <label>Desconto:</label><br>
-        <input type="text" id="desconto" placeholder="Digite o valor do desconto" style="width: 500px; height: 30px;">
-        <br><br>
-        <label>Ano de contratação:</label><br>
-        <input type="text" id="anoDeContratacao" placeholder="Digite o ano de contratação" style="width: 500px; height: 30px;">
-        <br><br><br><br>
-        <input type="button" value="MOSTRAR RESULTADO" onclick="resultado()">
-        <br><br><br>
-        <input type="text" id="resultadoFinal" readonly  value="Seu resultado aparecerá aqui:" style="width: 1000px; height: 30px;">
-    </form>
-    
+    <header>
+        <h1>Calclule seu salário liquido aqui:</h1>
+    </header>
+
+    <main>
+        <div>
+            <form>
+                <label>Nome:</label>
+                <input type="text" id="nome" class="input-style" placeholder=" Digite seu nome">
+                <label>Salário bruto:</label>
+                <input type="text" id="salarioBruto" class="input-style" placeholder=" Digite seu salário bruto">
+                <label>Gratificação:</label>
+                <input type="text" id="gratificacao" class="input-style" placeholder=" Digite o valor da gratificação">
+                <label>Desconto:</label>
+                <input type="text" id="desconto" class="input-style" placeholder=" Digite o valor do desconto">
+                <label>Ano de contratação:</label>
+                <input type="text" id="anoDeContratacao" class="input-style" placeholder=" Digite o ano de contratação">
+        
+                <input type="button" class="button" value="MOSTRAR RESULTADO" onclick="resultado()">
+        
+                <label>Resultado:</label>
+                <input type="text" id="resultadoFinal" class="input-results" readonly>
+            </form>
+        </div>
+    </main>
+
     <script src="./salario-liquido.js"></script>
 </body>
+
 </html>
