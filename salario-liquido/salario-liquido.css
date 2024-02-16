@@ -3,10 +3,21 @@
     padding: 0;
 }
 
+body {
+    background-image: url(dindin.jpg);
+}
+
 header {
     text-align: center;
     margin-bottom: 20px;
     padding: 50px;
+    font-weight: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    color: #0a6c7d;
+    text-shadow: 4px 4px 2px #000000;
 }
 
 main {
@@ -22,12 +33,21 @@ div {
 }
 
 form {
-    background-color: #00000034;
+    margin-top: 20px;
+    background-color: #ffffff6f;
     padding: 40px;
     display:flex;
     flex-direction: column;
-    box-shadow: 20px 20px 10px #888888;
+    box-shadow: 30px 30px 15px #000000;
     border: 1px solid #000000;
+}
+
+label {
+    color: #0a6c7d;
+    text-shadow: 4px 4px 2px #ffffff;
+    font-size: larger;
+    font-weight: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .input-style {
@@ -36,7 +56,7 @@ form {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    border: 2px solid #000000
+    border: 2px solid #000000;
 }
 
 .button {
@@ -44,10 +64,19 @@ form {
     height: 40px;
     align-self: center;
     border-radius: 8px;
-    border: 2px solid #000000
+    border: 2px solid #000000;
+    font-weight: bolder;
+    background-color: #ffffff6f;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    transform-style: flat;
 }
 
 .input-results {
+    margin: 5px;
     width: 800px;
     height: 30px;
     border-radius: 8px;

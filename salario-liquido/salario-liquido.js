@@ -10,7 +10,7 @@ const indice = 1.20;
 const taxa = 150;
 
 let salarioLiquido = (salarioBruto + gratificacao - desconto) * indice + (anoAtual - anoDeContratacao) * taxa;
-let mensagem = 'O funcionário ' + nome + ' recebe um salário líquido de R$' + salarioLiquido.toFixed(2) + '.';
+let mensagem = '' + 'O funcionário ' + nome + ' recebe um salário líquido de R$' + salarioLiquido.toFixed(2) + '.';
 
 document.getElementById("resultadoFinal").value = mensagem
 
