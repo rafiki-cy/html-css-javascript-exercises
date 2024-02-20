@@ -26,4 +26,10 @@
 }
 .nome, .email, .signo, .time {
     height: 30px;
+
+}
+
+.input-label {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
