@@ -30,17 +30,17 @@
                     Signo:
                 </label>
                 <select class="signo">
-                    <option value="10">Áries</option>
-                    <option value="20">Touro</option>
-                    <option value="20">Câncer</option>
-                    <option value="20">Leão</option>
-                    <option value="30">Virgem</option>
-                    <option value="10">Libra</option>
-                    <option value="10">Escorpião</option>
-                    <option value="30">Sagitário</option>
-                    <option value="10">Capricórnio</option>
-                    <option value="30">Aquário</option>
-                    <option value="30">Peixes</option>
+                    <option name="signo" value="10">Áries</option>
+                    <option name="signo" value="20">Touro</option>
+                    <option name="signo" value="20">Câncer</option>
+                    <option name="signo" value="20">Leão</option>
+                    <option name="signo" value="30">Virgem</option>
+                    <option name="signo" value="10">Libra</option>
+                    <option name="signo" value="10">Escorpião</option>
+                    <option name="signo" value="30">Sagitário</option>
+                    <option name="signo" value="10">Capricórnio</option>
+                    <option name="signo" value="30">Aquário</option>
+                    <option name="signo" value="30">Peixes</option>
                 </select>
             </div>
     
@@ -49,16 +49,16 @@
                     Time de Futebol
                 </label>
                 <select class="time">
-                    <option value="30">Flamengo</option>
-                    <option value="10">Palmeiras</option>
-                    <option value="30">Atlético-MG</option>
-                    <option value="20">Grêmio</option>
-                    <option value="10">Atlético-PR</option>
-                    <option value="30">Santos</option>
-                    <option value="10">São Paulo</option>
-                    <option value="10">Internacional</option>
-                    <option value="30">Fluminense</option>
-                    <option value="30">Corinthians</option>
+                    <option name="time" value="30">Flamengo</option>
+                    <option name="time" value="10">Palmeiras</option>
+                    <option name="time" value="30">Atlético-MG</option>
+                    <option name="time" value="20">Grêmio</option>
+                    <option name="time" value="10">Atlético-PR</option>
+                    <option name="time" value="30">Santos</option>
+                    <option name="time" value="10">São Paulo</option>
+                    <option name="time" value="10">Internacional</option>
+                    <option name="time" value="30">Fluminense</option>
+                    <option name="time" value="30">Corinthians</option>
                 </select>
             </div>
     
@@ -165,15 +165,17 @@
             </div>
     
             <div class="form-btn">
-                <button>
+                <button onclick="definir()">
                     Exibir resultado
                 </button>
             </div>
     
             <div class="form-input">
-                <input type="text" readonly>
+                <input type="text" id="resultado" readonly>
             </div>
         </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
