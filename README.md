@@ -6,6 +6,8 @@ Este repositório contém uma série de exercícios práticos realizados durante
 
 - [Exercício 1: Treinando semântica no HTML](insetos)
 - [Exercício 2: Cálculo de Salário Líquido com JavaScript](salario-liquido)
+- [Exercício 3: Tratamento de Diferentes Tipos de Dados](tipos-de-dados)
+- [Exercício 4: Treinando if else com cálculo IMC](calculo-imc)
 
 ## Futuras Melhorias
 
