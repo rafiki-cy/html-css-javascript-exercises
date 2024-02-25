@@ -26,10 +26,10 @@
             </div>
     
             <div class="form-input">
-                <label type="text" id="signo" class="input-label">
+                <label type="text"  class="input-label">
                     Signo:
                 </label>
-                <select class="signo">
+                <select id="signo" class="signo">
                     <option name="signo" value="10">Áries</option>
                     <option name="signo" value="20">Touro</option>
                     <option name="signo" value="20">Câncer</option>
@@ -48,7 +48,7 @@
                 <label type="text" id="time" class="input-label">
                     Time de Futebol
                 </label>
-                <select class="time">
+                <select id="time" class="time">
                     <option name="time" value="30">Flamengo</option>
                     <option name="time" value="10">Palmeiras</option>
                     <option name="time" value="30">Atlético-MG</option>
@@ -165,7 +165,7 @@
             </div>
     
             <div class="form-btn">
-                <button onclick="definir()">
+                <button type="button" onclick="definir()">
                     Exibir resultado
                 </button>
             </div>
